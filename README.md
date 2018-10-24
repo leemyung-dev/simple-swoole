@@ -20,8 +20,8 @@ Logs            = 项目程序日志目录<br>
 基于fast-route实现了路由<br>
 基于Swoole实现了 Http Server<br>
 基于Swoole协程Mysql库，实现了协程Mysql模型<br>
-<br>
 实现类：Input = 获取参数类， Message = 信息提示类<br>
+<br>
 进程出现异常导致退出，也会捕捉到错误，并且返回给客户端,<br>
 程序逻辑错误异常，也可以捕捉到，并且返回给客户端,<br>
 让客户端永远能正常收到服务端的返回信息。
