@@ -1,0 +1,25 @@
+{
+    "name": "liming/simple-swoole",
+    "description": "simple-swoole",
+    "type": "project",
+    "license": "LGPL",
+    "authors": [
+        {
+            "name": "Ming Li",
+            "email": "leemyung728@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ezyang/htmlpurifier": "dev-master",
+        "nikic/fast-route": "^1.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SimpleSwoole\\": ""
+        }
+    },
+    "require-dev": {
+        "eaglewu/swoole-ide-helper": "dev-master"
+    }
+}
