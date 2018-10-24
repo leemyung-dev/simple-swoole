@@ -2,7 +2,7 @@
 
 /**
  * Created by NetBeans.
- * User : liming <liming@wutiao.com>
+ * User : liming <leemyung728@gmail.com>
  * Date : 2018-10-9
  * Time : 20:06:03
  */
@@ -33,7 +33,7 @@ class IndexController extends \SimpleSwoole\Core\Controller {
         if ($result) {
             return $this->success($data);
         } else {
-            $this->error(600);
+            return $this->error(600);
         }
     }
 
